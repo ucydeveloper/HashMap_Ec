@@ -10,6 +10,6 @@
 using namespace std;
 
 int main() {
-	cout << "HashMap Implementation" << endl; // prints HashMap Implementation
+	cout << "Hello World" << endl; // prints HashMap Implementation
 	return 0;
 }
