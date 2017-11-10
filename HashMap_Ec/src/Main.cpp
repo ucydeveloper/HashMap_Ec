@@ -1,9 +1,5 @@
-//============================================================================
-// Name        : HashMap_Ec.cpp
-// Author      : ChinYih_Ung
-//============================================================================
-
 #include <iostream>
+#include <stdio.h>
 #include "HashEntry.h"
 
 using namespace std;

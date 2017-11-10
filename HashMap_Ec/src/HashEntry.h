@@ -11,13 +11,21 @@
 template<typename T>
 class HashEntry {
 private:
-	int key;
+	unsigned int key;
 	T value;
 
 public:
 
 	HashEntry(int k, T v){
 		key = k;
+		value = v;
+	}
+
+	void setKey(int k){
+		key =k;
+	}
+
+	void setValue(T v){
 		value = v;
 	}
 
