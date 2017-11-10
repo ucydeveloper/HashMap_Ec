@@ -4,7 +4,7 @@
 //============================================================================
 
 #include <iostream>
-#include "HashEntry.cpp"
+#include "HashEntry.h"
 
 using namespace std;
 

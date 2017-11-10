@@ -15,10 +15,23 @@ private:
 	T value;
 
 public:
-	HashEntry(int k, T v);
-	int getKey();
-	T getValue();
-	virtual ~HashEntry();
+
+	HashEntry(int k, T v){
+		key = k;
+		value = v;
+	}
+
+	int getKey(){
+		return key;
+	}
+
+	T getValue(){
+		return value;
+	}
+
+	virtual ~HashEntry(){
+
+	}
 
 };
 
